@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/optimizely/passport-optimizely.git"
+    "url": "git+https://github.com/bradtaylorsf/passport-optimizely.git"
   },
   "keywords": [
     "optimizely",
@@ -30,10 +30,7 @@
     "url": "http://www.opensource.org/licenses/MIT"
   } ],
   "bugs": {
-    "url": "https://github.com/optimizely/passport-optimizely/issues"
+    "url": "https://github.com/bradtaylorsf/passport-optimizely/issues"
   },
-  "homepage": "https://github.com/optimizely/passport-optimizely#readme",
-  "publishConfig": {
-    "registry": "https://optimizely.jfrog.io/optimizely/api/npm/npm-local"
-  }
+  "homepage": "https://github.com/bradtaylorsf/passport-optimizely#readme"
 }
