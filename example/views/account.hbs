@@ -1,0 +1,19 @@
+<h1>Profile</h1>
+<p>ID: {{user.id}}</p>
+<p>Username: {{user.username}}</p>
+<p>Email: {{user.email}}</p>
+<p>First Name: {{ user.name.first}}</p>
+<p>Last Name: {{ user.name.last}}</p>
+
+<h1>Current Account</h1>
+id: {{user.current_account.id}}
+
+<h1>All Accounts</h1>
+{{#each user.accounts }}
+id: {{this.id}} - name: {{this.name}} <br>
+{{/each}}
+
+<h1>Project Permissions</h1>
+{{#each user.project_roles}}
+project_id: {{this.project_id}} - role: {{this.role}}<br>
+{{/each}}
